@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+
+.navbar_Section {
+    width: 100%;
+    position: relative;
+    height: 100px;
+   z-index: 999;
+
+}
+.navbar_container{
+    background-color: white;
+    padding: 0px 0px;
+    animation: fadeInDown .3s ease-in-out 0s 1 normal none running;
+    -webkit-box-shadow: 0 10px 15px rgba(25, 25, 25, .1);
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 999;
+}
+.navbar_Section::before {
+    content: "";
+    position: absolute;
+    width: 10%;
+    margin-left: -20px;
+    height: 100px;
+    background: url("../../Images/dottednavpng.png");
+    background-repeat: no-repeat;
+    left: 0px;
+    top: 0px;
+    opacity: 1;
+    z-index: -1;
+}
+
+.navbar_content {
+    width: 85%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Nav_link_content {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    align-items: center;
+    height: 100%;
+}
+
+.nav_ul {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+
+}
+
+.nav_link_list {
+    list-style: none;
+}
+
+.Nav_link {
+    text-decoration: none;
+    color: #4d41e1;
+    font-family: 'jost';
+    /* font-family: "Montserrat", sans-serif; */
+    font-optical-sizing: auto;
+    font-size: 1.2rem;
+}
+.Nav_link:hover{
+    color: #010e2e;
+}
+.Appointment_btn {
+    position: relative;
+    filter: drop-shadow(0 15px 10px rgba(77, 65, 225, .15));
+}
+
+.Appointment_btn::before {
+    position: absolute;
+    content: "";
+    bottom: -58px;
+    right: 40px;
+    width: 26px;
+    z-index: -1;
+    height: 50px;
+    background: url("../../Images/diamondshape.png");
+    background-repeat: no-repeat;
+    opacity: 0.6;
+}
+
+.Appointment_btn a {
+    padding: 12px 15px;
+    border-radius: 10px;
+    background-color: #4d41e1;
+    color: white;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+}
+.navlinkactive{
+    color: #010e2e;
+    font-family: 'jost';
+    /* font-family: "Montserrat", sans-serif; */
+    font-optical-sizing: auto;
+    font-size: 1.2rem;
+}
+.hamburger_menu {
+    display: none;
+}
+
+
+@media screen and (max-width: 768px) {
+    .navbar_Section {
+        width: 60%;
+        height: 100%;
+        margin-left: -300px;
+        transition: margin-left 1s ease-in;
+    }
+    .navbar_Section_active {
+        width: 60%;
+        height: 100%;
+        margin-left: 0px;
+        transition: margin-left 0.5s ease-in;
+    }
+    .navbar_content {
+        width: 100%;
+        height: 100vh;
+        background: #0000001a;
+        flex-direction: column;
+        margin: 0px;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .logo_container {
+        margin-top: 100px;
+    }
+
+    .Nav_link_content {
+        flex-direction: column;
+        height: 30%;
+        width: 100%;
+        align-items: center;
+        margin-top: 50px;
+        align-items: center;
+    }
+
+    .nav_ul {
+        flex-direction: column;
+    }
+
+    .nav_link_list {
+        margin: 10px;
+    }
+
+    .hamburger_menu {
+        display: block;
+        position: absolute;
+        top: 15px;
+        z-index: 999;
+        left: 10px;
+        transition: left 0.6s ease-in;
+    }
+
+    .cross_menu {
+        display: block;
+        position: absolute;
+        top: 15px;
+        z-index: 999;
+        left: 150px;
+        transition: left 0.6s ease-in;
+    }
+    .navbar_container{
+        height: 0px;
+    
+    }
+}

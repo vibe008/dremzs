@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+.home_section {
+    height: 900px;
+    width: 100%;
+    position: absolute;
+    background: rgba(77, 65, 225, .05);
+    ;
+    top: 0;
+}
+
+.home_section::before {
+    content: "";
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    z-index: -1;
+    background: linear-gradient(90deg, #36c1ea 10%, #4d41e1 50%, #ff884e 90%);
+    opacity: 0.1;
+}
+
+.Home_project_reviews {
+    width: 85%;
+    margin: auto;
+    background-color: white;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0 25px 70px 0 rgba(152, 152, 153);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.com_pro_rew {
+    width: 20%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.com_pro_circle {
+    position: relative;
+    width: 40px;
+    height: 50px;
+}
+
+.com_pro_circle::before {
+    position: absolute;
+    content: "";
+    width: 40px;
+    height: 50px;
+    border-radius: 50px;
+    left: 0;
+    top: 0;
+    opacity: 0.09;
+}
+
+
+.project_complete_circle::before {
+    background: #4d41e1;
+}
+
+.experinced_member_circle::before {
+    background: #ff884e;
+}
+
+.Setisfied_client_circle::before {
+    background: #36c1ea;
+}
+
+.running_projects_circle::before {
+    background: #f14d5d;
+}
+
+.num_cou_para{
+    font-size: 1.9rem;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    margin: 10px;
+    text-align: center;
+}
+.text_cou_para{
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: "Montserrat", sans-serif;
+    color: rgba(76, 75, 75, 0.455);
+    /* font-weight: 500; */
+}
+
+@media screen and (max-width: 768px) {
+    .home_section{
+        height: 1100px;
+    }
+    .Home_project_reviews{
+        width: 95%;
+        height: 100%;
+        flex-direction: column;
+        margin-top: 0px;
+        box-shadow: 0 25px 70px 0 rgba(152, 152, 153);
+    }
+}
