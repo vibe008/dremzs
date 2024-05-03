@@ -66,11 +66,17 @@
 .topRated {
     width: 300px;
     height: 100%;
+    display: flex;
+    align-items: center;
 }
-
+.topratedtext{
+    margin-left: 10px;
+}
 .happy_cient {
     width: 300px;
     height: 100%;
+    display: flex;
+    align-items: center;
 }
 
 .topRatedp1 {
