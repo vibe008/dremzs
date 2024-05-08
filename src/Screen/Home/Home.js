@@ -5,6 +5,8 @@ import BannerOne from "../../Components/Banner1/BannerOne";
 import Slidersecond from "../../Components/Slider/Slidersecond";
 import HomebannerOne from "../../Components/Homebanners/Homebanner1/HomebannerOne";
 import RecentStudy from "../../Components/Homebanners/recentstudy/RecentStudy";
+import Homeslider3 from "../../Components/Homebanners/HomeSlider3/Homeslider3";
+import Homeemail from "../../Components/Homebanners/HomeemailSection/Homeemail";
 const project1img = require("../../Images/projectcompletepng.png")
 const project2img = require("../../Images/projectcompletepng2.png")
 const project3img = require("../../Images/projectcompletepng3.png")
@@ -55,6 +57,8 @@ function Home() {
       <Slidersecond/>
       <HomebannerOne/>
       <RecentStudy/>
+      <Homeslider3/>
+      <Homeemail/>
     </div>
   );
 }
