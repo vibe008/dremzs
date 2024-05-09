@@ -1,0 +1,116 @@
+.homeblog_section {
+    padding-top: 100px;
+}
+
+.homeblog_container {
+    width: 90%;
+    margin: auto;
+    padding: 0px 40px;
+}
+
+.Homeblog_slider_section {
+    width: 100%;
+    height: 450px;
+    margin-top: 50px;
+}
+.homeblog_card:hover {
+    background-color: #4e41e11e;
+}
+.homeblog_card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.img_min_card {
+    width: 100%;
+    height: 70%;
+    position: relative;
+}
+
+.img_min_card img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.hmblg_text_container {
+    position: absolute;
+    bottom: -20px;
+    width: 100%;
+    height: 50px;
+}
+.homeblog_container h2{
+    font-size: 36px;
+    line-height: 50px;
+    color: #010e2e;
+    font-family: 'jost';
+    font-weight: 400;
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}
+.homeblog_container h2 span{
+    color: #4d41e1;
+}
+
+.hmblg_text_container_min {
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    height: 100%;
+    border-radius: 5px;
+    box-shadow: 0 20px 60px 0 rgba(0, 11, 40, .06);
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+.uerename{
+    align-items: center;
+    display: flex;
+    width: 40%;
+}
+.uerename p{
+ color: #818090;
+ font-size: 16px;
+ font-weight: 400;
+ font-family: 'jost';
+ margin-left: 5px;
+}
+.uerdate p{
+ color: #818090;
+ font-size: 16px;
+ font-weight: 400;
+ font-family: 'jost';
+ margin-left: 5px;
+}
+.uerdate{
+    align-items: center;
+    display: flex;
+    width: 40%;
+}
+.card_text{
+    margin-top: 27px;
+    height: 20%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card_text a{
+    font-size: 20px;
+    line-height: 30px;
+    color: #010e2e;
+    font-weight: 600;
+    font-family: 'jost';
+    height: 70%;
+}
+
+@media screen and (max-width: 768px) {
+    .homeblog_container h2{
+        width: 100%;
+    }
+}
