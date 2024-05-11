@@ -113,4 +113,7 @@
     .homeblog_container h2{
         width: 100%;
     }
+    .homeblog_container{
+        padding: 0px;
+    }
 }

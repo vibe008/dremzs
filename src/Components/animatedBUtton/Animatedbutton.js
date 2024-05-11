@@ -16,7 +16,7 @@ function Animatedbutton(props) {
         }}
       >
         {
-          props.btnname === "Subscribe" ?"": 
+          props.btnname === "Subscribe" || "Contact Us!" ?"": 
           <IoIosArrowRoundForward size={25} color="white" />
         }
       </div>

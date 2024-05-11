@@ -9,6 +9,7 @@ import Homeslider3 from "../../Components/Homebanners/HomeSlider3/Homeslider3";
 import Homeemail from "../../Components/Homebanners/HomeemailSection/Homeemail";
 import Testimonials from "../../Components/Homebanners/testimonials/Testimonials";
 import Homeblog from "../../Components/Homebanners/Homeblog/Homeblog";
+import Homefooter from "../../Components/Homebanners/HomeFooter/Homefooter";
 const project1img = require("../../Images/projectcompletepng.png")
 const project2img = require("../../Images/projectcompletepng2.png")
 const project3img = require("../../Images/projectcompletepng3.png")
@@ -63,6 +64,7 @@ function Home() {
       {/* <Homeslider3/> */}
       <Homeemail/>
       <Homeblog/>
+      <Homefooter/>
     </div>
   );
 }
