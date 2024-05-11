@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/dremzs/static/css/main.a8f15b76.css",
-    "main.js": "/dremzs/static/js/main.dbe08146.js",
+    "main.css": "/dremzs/static/css/main.9b3dab01.css",
+    "main.js": "/dremzs/static/js/main.7ff88416.js",
     "static/js/453.94c1eb07.chunk.js": "/dremzs/static/js/453.94c1eb07.chunk.js",
+    "static/media/homefooter.png": "/dremzs/static/media/homefooter.ac298d51d48b1a605ffa.png",
     "static/media/web3.jpg": "/dremzs/static/media/web3.02694ed3ba410aa31b2e.jpg",
     "static/media/homeblog3.jpg": "/dremzs/static/media/homeblog3.df39cd7ce9f37604b552.jpg",
     "static/media/Jost-VariableFont_wght.ttf": "/dremzs/static/media/Jost-VariableFont_wght.34835cd554b7b71732e2.ttf",
@@ -30,12 +31,12 @@
     "static/media/projectcompletepng2.png": "/dremzs/static/media/projectcompletepng2.10ec80289bc94f506056.png",
     "static/media/shield.png": "/dremzs/static/media/shield.0056c2c719670d562bee.png",
     "index.html": "/dremzs/index.html",
-    "main.a8f15b76.css.map": "/dremzs/static/css/main.a8f15b76.css.map",
-    "main.dbe08146.js.map": "/dremzs/static/js/main.dbe08146.js.map",
+    "main.9b3dab01.css.map": "/dremzs/static/css/main.9b3dab01.css.map",
+    "main.7ff88416.js.map": "/dremzs/static/js/main.7ff88416.js.map",
     "453.94c1eb07.chunk.js.map": "/dremzs/static/js/453.94c1eb07.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a8f15b76.css",
-    "static/js/main.dbe08146.js"
+    "static/css/main.9b3dab01.css",
+    "static/js/main.7ff88416.js"
   ]
 }
