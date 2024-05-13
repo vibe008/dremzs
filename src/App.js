@@ -4,7 +4,7 @@ import Home from "./Screen/Home/Home";
 import AOS from "aos";
 import { Routes, Route } from "react-router-dom";
 import "aos/dist/aos.css";
-import About from "./About/About";
+import About from "../src/Screen/About/About";
 import Footer from "./Components/Footer/Footer";
 import Contactus from "./Screen/ConatctUs/Contactus";
 function App() {
