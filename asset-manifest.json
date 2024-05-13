@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/dremzs/static/css/main.9b3dab01.css",
-    "main.js": "/dremzs/static/js/main.7ff88416.js",
-    "static/js/453.94c1eb07.chunk.js": "/dremzs/static/js/453.94c1eb07.chunk.js",
+    "main.css": "/dremzs/static/css/main.cd5da027.css",
+    "main.js": "/dremzs/static/js/main.612195de.js",
+    "static/js/453.eeb3bb8a.chunk.js": "/dremzs/static/js/453.eeb3bb8a.chunk.js",
     "static/media/homefooter.png": "/dremzs/static/media/homefooter.ac298d51d48b1a605ffa.png",
     "static/media/web3.jpg": "/dremzs/static/media/web3.02694ed3ba410aa31b2e.jpg",
     "static/media/homeblog3.jpg": "/dremzs/static/media/homeblog3.df39cd7ce9f37604b552.jpg",
@@ -18,25 +18,29 @@
     "static/media/homeblog1.jpg": "/dremzs/static/media/homeblog1.7b2dd95c8edc3e1abb66.jpg",
     "static/media/sliderimg1.jpg": "/dremzs/static/media/sliderimg1.baf20fbcb4c0284ad45f.jpg",
     "static/media/homeblog2.jpg": "/dremzs/static/media/homeblog2.51194ceb2d93a5ae8020.jpg",
+    "static/media/aboutbreadcrums.jpg": "/dremzs/static/media/aboutbreadcrums.2c111f4163b4643c60b0.jpg",
     "static/media/banneroneimg.jpg": "/dremzs/static/media/banneroneimg.84c6fb0c8740600836cb.jpg",
     "static/media/eclipserotateshapetr.png": "/dremzs/static/media/eclipserotateshapetr.be7f2c55456b891b279c.png",
     "static/media/spaceshi.png": "/dremzs/static/media/spaceshi.9886d5d6c5a3e5f24720.png",
     "static/media/digitalmarketing1.png": "/dremzs/static/media/digitalmarketing1.6a7456b500e7336540b2.png",
     "static/media/customer.png": "/dremzs/static/media/customer.00eadb9189e19f354fc4.png",
+    "static/media/aboutdigitalmarketing.png": "/dremzs/static/media/aboutdigitalmarketing.7608e49a5398441a5856.png",
     "static/media/projectcompletepng4.png": "/dremzs/static/media/projectcompletepng4.41e05f5f56925a8a4890.png",
     "static/media/projectcompletepng.png": "/dremzs/static/media/projectcompletepng.928fc8138a9ff91c16a4.png",
     "static/media/person.png": "/dremzs/static/media/person.099d50a5b8eb6d40dc49.png",
     "static/media/man.png": "/dremzs/static/media/man.9ad76f24c051be9cdee9.png",
     "static/media/projectcompletepng3.png": "/dremzs/static/media/projectcompletepng3.4e50afe2e888a204a517.png",
+    "static/media/aboutcodeoptimisation.png": "/dremzs/static/media/aboutcodeoptimisation.76f8740b2af1cfd5e546.png",
     "static/media/projectcompletepng2.png": "/dremzs/static/media/projectcompletepng2.10ec80289bc94f506056.png",
+    "static/media/aboutpentool.png": "/dremzs/static/media/aboutpentool.883365bfff02b5c7474e.png",
     "static/media/shield.png": "/dremzs/static/media/shield.0056c2c719670d562bee.png",
     "index.html": "/dremzs/index.html",
-    "main.9b3dab01.css.map": "/dremzs/static/css/main.9b3dab01.css.map",
-    "main.7ff88416.js.map": "/dremzs/static/js/main.7ff88416.js.map",
-    "453.94c1eb07.chunk.js.map": "/dremzs/static/js/453.94c1eb07.chunk.js.map"
+    "main.cd5da027.css.map": "/dremzs/static/css/main.cd5da027.css.map",
+    "main.612195de.js.map": "/dremzs/static/js/main.612195de.js.map",
+    "453.eeb3bb8a.chunk.js.map": "/dremzs/static/js/453.eeb3bb8a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9b3dab01.css",
-    "static/js/main.7ff88416.js"
+    "static/css/main.cd5da027.css",
+    "static/js/main.612195de.js"
   ]
 }
