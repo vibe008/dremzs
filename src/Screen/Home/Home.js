@@ -61,7 +61,7 @@ function Home() {
       <HomebannerOne/>
       <RecentStudy/>
       <Testimonials/>
-      {/* <Homeslider3/> */}
+      <Homeslider3/>
       <Homeemail/>
       <Homeblog/>
       <Homefooter/>

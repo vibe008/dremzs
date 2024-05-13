@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./Navbar.css";
+import { Link } from "react-router-dom";
 const logo = require("../../Images/logo.png");
 function Navbar() {
     const [activatesticky , setActiveSticky]=useState(false)
@@ -40,18 +41,20 @@ function Navbar() {
           <div className="Nav_link_content">
             <ul className="nav_ul">
               <li className="nav_link_list">
-                <a className={navlinkactive === 1 ? "navlinkactive" :"Nav_link"} href="/" onClick={()=>{
+                <Link to="/" className={navlinkactive === 1 ? "navlinkactive" :"Nav_link"}  onClick={()=>{
                   setisactive(true)
+                  setnavlinkactive(1)
                 }}>
                   Home
-                </a>
+                </Link>
               </li>
               <li className="nav_link_list">
-                <a className={navlinkactive === 2 ? "navlinkactive" :"Nav_link"} href="/" onClick={()=>{
+                <Link to="/About" className={navlinkactive === 2 ? "navlinkactive" :"Nav_link"}  onClick={()=>{
                   setnavlinkactive(2)
+
                 }}>
                   About
-                </a>
+                </Link>
               </li>
               <li className="nav_link_list">
                 <a className={navlinkactive === 3 ? "navlinkactive" :"Nav_link"} href="/" onClick={()=>{
@@ -68,9 +71,11 @@ function Navbar() {
                 </a>
               </li>
               <li className="nav_link_list">
-                <a className="Nav_link" href="/">
+                <Link to="/Contact" className={navlinkactive === 5 ? "navlinkactive" :"Nav_link"}  onClick={()=>{
+                  setnavlinkactive(5)
+                }} >
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
             <div className="Appointment_btn">

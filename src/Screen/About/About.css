@@ -1,0 +1,105 @@
+.About_main {
+    background-color: rgba(77, 65, 225, .05);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 400px;
+}
+.About_section {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    height: 100%;
+}
+
+.About_Container {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.About_Container ul {
+    display: flex;
+    /* width: 15%; */
+    margin: auto;
+    justify-content: space-between;
+}
+
+.About_Container ul li {
+    list-style: none;
+    font-size: 30px;
+    color: #010e2e;
+    margin-left: 30px;
+    font-weight: 400;
+}
+.About_Container ul li a {
+    color: #010e2e;
+}
+.About_Container ul li a:hover{
+    color: #4d41e1;
+}
+
+.second_text {
+    position: relative;
+}
+
+.second_text::before {
+    content: '/';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    right: 20px;
+    color: #6c757d;
+}
+.about_banner_{
+    background-color: rgba(77, 65, 225, .05);
+    padding: 120px 0 167px;
+    margin-top: 150px;
+    position: relative;
+}
+.about_banner_ h2{
+    font-size: 36px;
+    line-height: 50px;
+    margin: 0 0 26px;
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    margin: 0;
+    text-align: center;
+}
+.about_conta_banner_inner h2{
+    font-size: 36px;
+    line-height: 50px;
+    margin: 0 0 26px;
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    margin: 0;
+    text-align: justify;
+}
+.about_conta_banner{
+  position: absolute;
+  bottom: -10px;
+  width: 100%;
+}
+.about_conta_banner_inner{
+    width: 85%;
+    background-color: white;
+    margin: auto;
+    height: 100%;
+    box-shadow: 0 25px 70px 0 rgba(152,152,153,.25);
+    display: flex;
+    align-items: center;
+    padding: 10px 30px;
+    justify-content: space-around;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    .about_conta_banner_inner{
+        display: none;
+    }
+    .about_banner_{
+        margin-top: 200px;
+    }
+}
