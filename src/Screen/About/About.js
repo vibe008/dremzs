@@ -3,7 +3,7 @@ import "./About.css";
 import { Link } from "react-router-dom";
 import BannerOne from "../Components/Banner1/BannerOne";
 import HomebannerOne from "../Components/Homebanners/Homebanner1/HomebannerOne";
-import Animatedbutton from "../Components/animatedBUtton/Animatedbutton";
+import Animatedbutton from "../../Components/animatedBUtton/Animatedbutton";
 import AboutBreadcrums from "../Components/About/AboutBreadcrums";
 import Footer from "../Components/Footer/Footer";
 function About() {
