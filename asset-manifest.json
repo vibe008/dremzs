@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/dremzs/static/css/main.cd5da027.css",
-    "main.js": "/dremzs/static/js/main.612195de.js",
+    "main.css": "/dremzs/static/css/main.07b607f6.css",
+    "main.js": "/dremzs/static/js/main.ec776d57.js",
     "static/js/453.eeb3bb8a.chunk.js": "/dremzs/static/js/453.eeb3bb8a.chunk.js",
     "static/media/homefooter.png": "/dremzs/static/media/homefooter.ac298d51d48b1a605ffa.png",
     "static/media/web3.jpg": "/dremzs/static/media/web3.02694ed3ba410aa31b2e.jpg",
@@ -35,12 +35,12 @@
     "static/media/aboutpentool.png": "/dremzs/static/media/aboutpentool.883365bfff02b5c7474e.png",
     "static/media/shield.png": "/dremzs/static/media/shield.0056c2c719670d562bee.png",
     "index.html": "/dremzs/index.html",
-    "main.cd5da027.css.map": "/dremzs/static/css/main.cd5da027.css.map",
-    "main.612195de.js.map": "/dremzs/static/js/main.612195de.js.map",
+    "main.07b607f6.css.map": "/dremzs/static/css/main.07b607f6.css.map",
+    "main.ec776d57.js.map": "/dremzs/static/js/main.ec776d57.js.map",
     "453.eeb3bb8a.chunk.js.map": "/dremzs/static/js/453.eeb3bb8a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cd5da027.css",
-    "static/js/main.612195de.js"
+    "static/css/main.07b607f6.css",
+    "static/js/main.ec776d57.js"
   ]
 }
