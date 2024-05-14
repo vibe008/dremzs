@@ -59,7 +59,7 @@ function Footer() {
               </li>
             </ul>
           </div>
-          <div className="contetnt_suscribe">
+          <div className="footer_contetnt_suscribe">
             <h3 className="footerheadingh3">Subscribes</h3>
             <p>
               This is Photoshop's version of LoreiIpsum. Proin gravida nibh vel
@@ -78,7 +78,7 @@ function Footer() {
             </div>
           </div>
         </div>
-        <div className="hf_social_media">
+        <div className="footer_social_media">
           <div className="icons">
             <div className="footer_inner_icon">
               <TfiYoutube />

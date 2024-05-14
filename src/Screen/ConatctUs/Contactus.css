@@ -1,6 +1,114 @@
-.Contact_form_section{
+.contactus_section {
+    position: absolute;
+    top: 0px;
+    padding: 300px 0px;
+    height: 100%;
+    width: 100%;
+}
+
+.Contact_form_section {
     width: 85%;
-    height: 700px;
-    background-color: red;
-    margin: 300px 0px;
+    height: 500px;
+    margin: 200px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contform_text {
+    width: 40%;
+    height: 80%;
+    /* padding-right: 10px; */
+}
+
+.contactheading {
+    font-size: 36px;
+    line-height: 50px;
+    text-transform: uppercase;
+    margin: 0 0 26px;
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    color: #010e2e;
+}
+
+.hsecond {
+    font-size: 28px;
+}
+
+.contform_text h6 {
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0 0 0px;
+    font-family: "Jost", sans-serif;
+    font-weight: 600;
+    color: #010e2e;
+}
+
+.contform_text p {
+    font-family: "Jost", sans-serif;
+    color: #6b6a75;
+    margin: 0 0 26px;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 400;
+}
+
+.contform_inputform {
+    height: 100%;
+    width: 45%;
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+    padding: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.contactus_input {
+    width: 90%;
+    border-radius: 5px;
+    outline: none;
+    padding: .375rem .75rem;
+    border: 1px solid #6b6a75;
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    /* margin: 10px 0px; */
+}
+
+.cont_dropdown {
+    border-radius: 5px;
+    width: 90%;
+    border-radius: 5px;
+    padding: .375rem .75rem;
+}
+
+.textarea {
+    width: 90%;
+    padding: .375rem .75rem;
+    height: 100px;
+    border-radius: 5px;
+    outline: none;
+    padding: .375rem .75rem;
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 768px) {
+    .Contact_form_section {
+        width: 90%;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .contform_text {
+        width: 100%;
+    }
+
+    .contform_inputform {
+        width: 80%;
+        height: 500px;
+    }
 }
