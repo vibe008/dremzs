@@ -11,9 +11,9 @@ function Homefooter() {
   const [email, setEmail] = useState("");
   return (
     <div className="Homefooter_Section">
-      <div className="dotted_footer">
+      {/* <div className="dotted_footer">
         <img src={dootedimg} alt="dootedimg" />
-      </div>
+      </div> */}
       <div className="Homefooter_contact_us">
         <div className="Homefooter_contact_us_innner">
           <h2>

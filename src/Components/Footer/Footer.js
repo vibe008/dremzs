@@ -11,9 +11,9 @@ function Footer() {
   const [email, setEmail] = useState("");
   return (
     <div className="footer_Section">
-      <div className="dotted_footer">
+      {/* <div className="dotted_footer">
         <img src={dootedimg} alt="dootedimg" />
-      </div>
+      </div> */}
       <div className="footer_content">
         <div className="row">
           <div className="footer_content_heading">

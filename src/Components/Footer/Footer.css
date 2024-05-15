@@ -227,10 +227,10 @@
         width: 100%;
     }
     .icons{margin: 20px auto;}
+    
     .dotted_footer{
         right: -42px;
         top:20px;
-        left:calc(100%-10%);
         display: none;
     }
 }
