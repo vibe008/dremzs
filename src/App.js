@@ -7,6 +7,7 @@ import "aos/dist/aos.css";
 import About from "../src/Screen/About/About";
 import Contactus from "./Screen/ConatctUs/Contactus";
 import Blog from "./Screen/Blog/Blog";
+import Casestudy from "./Screen/caseStudy/Casestudy";
 function App() {
   useEffect(() => {
     AOS.init(); // Initialize AOS when the component mounts
@@ -20,6 +21,7 @@ function App() {
         <Route path="/About" element={<About />}></Route>
         <Route path="/Contact" element={<Contactus />}></Route>
         <Route path="/Blog" element={<Blog />}></Route>
+        <Route path="/Casestudy" element={<Casestudy />}></Route>
       </Routes>
        </div>
       {/* <Footer /> */}

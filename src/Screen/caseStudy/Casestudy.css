@@ -1,0 +1,118 @@
+.casestudy_section{
+    position: absolute;
+    top: 0px;
+    padding: 300px 0px;
+    height: 100%;
+    width: 100%;
+}
+.casestudy_container{
+    margin: 150px auto;
+    width: 85%;
+}
+.casestudy_container h2{
+    font-size: 36px;
+    line-height: 50px;
+    font-weight: 400;
+    margin-bottom: 50px;
+    font-family: 'jost';
+    text-align: center;
+}
+.casestude_card_container{
+  width: 100%;
+  display: flex;
+  /* justify-content: space-between; */
+  flex-wrap: wrap;
+}
+.recent_studey_card{
+    width: 30%;
+    height: 600px;
+    margin: 0px 20px;
+}
+.re_st_img{
+    height: 80%;
+    width: 100%;
+    position: relative;
+    box-shadow: 0 15px 50px 0 hsla(0,0%,40%,.21);
+}
+.re_st_img img{
+    max-width: 100%; 
+    height: 100%;
+    position: absolute; 
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.re_st_text{
+    width: 100%;
+    height: 20%;
+}
+.re_st_text h4{
+    font-size: 20px;
+    margin: 10px 0 6px;
+    line-height: 27px;
+    font-weight: 600;
+    font-family: 'jost';
+}
+.re_st_text_link{
+    color: #010e2e;
+    font-weight: 400;
+}
+.re_st_text_readMOre{
+    font-size: 16px;
+    color: #6b6a75;
+    font-family: 'jost';
+    font-weight: 400;
+}
+
+.pagination{
+    display: flex;   
+    width: 30%;
+    justify-content: space-between;
+    margin: auto;
+}
+.pagination .active{
+   background-color: #4d41e1;
+   color: white;
+}
+li{
+    list-style: none;
+}
+.pagination li{
+    text-decoration: none;
+    height: 50px;
+    background: #f4f4f4;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    cursor: pointer;
+}
+.pagination li:hover{
+    background-color: #4d41e1;
+    color: white;
+
+}
+.pagination a{
+   padding: 10px;
+   font-family: 'jost';
+   font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+    .casestudy_container{
+        width: 100%;
+    }
+    .casestude_card_container{
+        flex-direction: column;
+    }
+    .recent_studey_card{
+        width: 90%;
+        margin: auto;
+    }
+    .pagination{
+        width: 100%;
+        margin: 0px;
+        margin-left: -40px;
+    }
+}

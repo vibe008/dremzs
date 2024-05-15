@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./recentstudy.css";
+import { Link } from "react-router-dom";
 function RecentStudy() {
   const [rebtnid, setRebtnId] = useState(0);
   const [rebtnvalue, setRebtnValue] = useState("Web Development");
@@ -124,7 +125,7 @@ function RecentStudy() {
               <div className="re_te_btn" key={key}>
                 <button
                   className={rebtnid === key ? "rebtnactive" : "rebtn"}
-                  href="/"
+                  to="/Casestudy"
                   onClick={(index, value) => {
                     console.log("value", item.text);
                     setRebtnId(key);
@@ -159,11 +160,11 @@ function RecentStudy() {
                 </div>
                 <div className="rec_view_text">
                   <h4 className="rec_view_text_hea">
-                    <a href="/">{item.heading}t</a>
+                    <Link to="/Casestudy">{item.heading}t</Link>
                   </h4>
-                  <a href="/" className="rec_view_text-remo">
+                  <Link to="/Casestudy" className="rec_view_text-remo">
                     Read more
-                  </a>
+                  </Link>
                 </div>
               </div>
             );
@@ -186,11 +187,11 @@ function RecentStudy() {
                 </div>
                 <div className="rec_view_text">
                   <h4 className="rec_view_text_hea">
-                    <a href="/">{item.heading}t</a>
+                    <Link to="/Casestudy">{item.heading}t</Link>
                   </h4>
-                  <a href="/" className="rec_view_text-remo">
+                  <Link to="/Casestudy" className="rec_view_text-remo">
                     Read more
-                  </a>
+                  </Link>
                 </div>
               </div>
             );
@@ -214,11 +215,11 @@ function RecentStudy() {
                 </div>
                 <div className="rec_view_text">
                   <h4 className="rec_view_text_hea">
-                    <a href="/">{item.heading}t</a>
+                    <Link to="/Casestudy">{item.heading}t</Link>
                   </h4>
-                  <a href="/" className="rec_view_text-remo">
+                  <Link to="/Casestudy" className="rec_view_text-remo">
                     Read more
-                  </a>
+                  </Link>
                 </div>
               </div>
             );
@@ -242,11 +243,11 @@ function RecentStudy() {
                 </div>
                 <div className="rec_view_text">
                   <h4 className="rec_view_text_hea">
-                    <a href="/">{item.heading}t</a>
+                    <Link to="/Casestudy">{item.heading}t</Link>
                   </h4>
-                  <a href="/" className="rec_view_text-remo">
+                  <Link to="/Casestudy" className="rec_view_text-remo">
                     Read more
-                  </a>
+                  </Link>
                 </div>
               </div>
             );
@@ -270,11 +271,11 @@ function RecentStudy() {
                 </div>
                 <div className="rec_view_text">
                   <h4 className="rec_view_text_hea">
-                    <a href="/">{item.heading}t</a>
+                    <Link to="/Casestudy">{item.heading}t</Link>
                   </h4>
-                  <a href="/" className="rec_view_text-remo">
+                  <Link to="/Casestudy" className="rec_view_text-remo">
                     Read more
-                  </a>
+                  </Link>
                 </div>
               </div>
             );
