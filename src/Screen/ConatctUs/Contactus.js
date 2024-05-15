@@ -8,6 +8,7 @@ function Contactus() {
   const [name, setName] = useState();
   const [email, setEmail] = useState();
   const [values, setValues] = useState();
+  console.log("values",values)
   const options = [
     {
       value: 1,

@@ -1,20 +1,16 @@
 import React, { useEffect, useState } from "react";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
-import { Sidebar, Menu, MenuItem, SubMenu } from "react-pro-sidebar";
+import { Sidebar, Menu, MenuItem } from "react-pro-sidebar";
 import { RxCross2 } from "react-icons/rx";
 import { IoMdMenu } from "react-icons/io";
 const logo = require("../../Images/logo.png");
 
 function Navbar() {
   const [activatesticky, setActiveSticky] = useState(false);
-  const [hidenav, setHideNav] = useState(false);
   const [navlinkactive, setnavlinkactive] = useState(1);
-  const [isactive, setisactive] = useState(false);
   const [toggled, setToggled] = React.useState(false);
-  const ToggleNavbar = () => {
-    // setHideNav(!hidenav)
-  };
+
 
   useEffect(() => {
     window.addEventListener("scroll", function () {
@@ -141,7 +137,7 @@ function Navbar() {
       </div> */}
 
       <div className={activatesticky ? "navbar_container" : "navbar_web"}>
-        <div className={hidenav ? "navbar_Section_active" : "navbar_Section"}>
+        <div className="navbar_Section">
           <div className="navbar_content">
             <div className="logo_container">
               <img src={logo} alt="logo" />
@@ -155,7 +151,6 @@ function Navbar() {
                       navlinkactive === 1 ? "navlinkactive" : "Nav_link"
                     }
                     onClick={() => {
-                      setisactive(true);
                       setnavlinkactive(1);
                     }}
                   >
@@ -189,17 +184,17 @@ function Navbar() {
                   </a>
                 </li>
                 <li className="nav_link_list">
-                  <a
+                  <Link
                     className={
                       navlinkactive === 4 ? "navlinkactive" : "Nav_link"
                     }
-                    href="/"
+                    to="/Blog"
                     onClick={() => {
                       setnavlinkactive(4);
                     }}
                   >
                     Blog
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav_link_list">
                   <Link

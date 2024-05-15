@@ -27,7 +27,6 @@ function RecentStudy() {
       text: "Social media",
     },
   ];
-  const img1 = require("../../../Images/webdevelopment/web1.jpg");
   const webdevelopment = [
     {
       id: "1",

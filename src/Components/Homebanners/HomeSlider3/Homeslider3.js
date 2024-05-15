@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./homeslider3.css";
 // import StarRatings from "./react-star-ratings";
 

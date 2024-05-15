@@ -2,11 +2,9 @@ import React from "react";
 import "./Homeblog.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { FreeMode, Pagination } from "swiper/modules";
-import { Navigation } from "swiper/modules";
 import { LuClock9 } from "react-icons/lu";
 import { IoPersonSharp } from "react-icons/io5";
 import { IoArrowForwardCircle } from "react-icons/io5";
-const hblog1 = require("../../../Images/homeblog1.jpg");
 const blogdata = [
   {
     id: 1,
