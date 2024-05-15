@@ -23,7 +23,7 @@ function Navbar() {
         setActiveSticky(false);
       }
       // Log the scroll position to the console
-      console.log("Scroll Position:", scrollPosition);
+      // console.log("Scroll Position:", scrollPosition);
     });
   }, []);
   return (

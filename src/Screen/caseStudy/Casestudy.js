@@ -1,11 +1,15 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import ContentHeading from "../../Components/PageContentHeading/ContentHeading";
-import { GrFormPrevious ,GrFormNext} from "react-icons/gr";
+import { GrFormPrevious, GrFormNext } from "react-icons/gr";
 import "./Casestudy.css";
 import ReactPaginate from "react-paginate";
-import { Link } from "react-router-dom";
-import Footer from "../../Components/Footer/Footer"
+import { Link, useNavigate } from "react-router-dom";
+import Footer from "../../Components/Footer/Footer";
 function Casestudy() {
+  const naviation = useNavigate();
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, []);
   const data = [
     {
       id: "1",
@@ -140,9 +144,33 @@ function Casestudy() {
               </div>
               <div className="re_st_text">
                 <h4>
-                  <Link className="re_st_text_link">{item.heading}</Link>
+                  <span
+                    style={{ cursor: "pointer" }}
+                    onClick={() => {
+                      naviation("/Casestudyinner", {
+                        state: {
+                          item: item,
+                        },
+                      });
+                    }}
+                    className="re_st_text_link"
+                  >
+                    {item.heading}
+                  </span>
                 </h4>
-                <Link className="re_st_text_readMOre">Read more</Link>
+                <span
+                  style={{ cursor: "pointer" }}
+                  onClick={() => {
+                    naviation("/Casestudyinner", {
+                      state: {
+                        item: item,
+                      },
+                    });
+                  }}
+                  className="re_st_text_readMOre"
+                >
+                  Read more
+                </span>
               </div>
             </div>
           ))}
@@ -170,21 +198,22 @@ function Casestudy() {
         <div className="casestude_card_container">
           <Items currentItems={currentItems} />
         </div>
-
       </div>
       <ReactPaginate
-          previousLabel={<GrFormPrevious size={20}  style={{marginTop:"5px"}}/>}
-          nextLabel={<GrFormNext size={20}  style={{marginTop:"5px"}}/>}
-          breakLabel="..."
-          breakClassName="break-me"
-          pageCount={pageCount}
-          marginPagesDisplayed={3}
-          pageRangeDisplayed={3}
-          onPageChange={handlePageClick}
-          containerClassName="pagination"
-          activeClassName="active"
-        />
-      <Footer/>
+        previousLabel={
+          <GrFormPrevious size={20} style={{ marginTop: "5px" }} />
+        }
+        nextLabel={<GrFormNext size={20} style={{ marginTop: "5px" }} />}
+        breakLabel="..."
+        breakClassName="break-me"
+        pageCount={pageCount}
+        marginPagesDisplayed={3}
+        pageRangeDisplayed={3}
+        onPageChange={handlePageClick}
+        containerClassName="pagination"
+        activeClassName="active"
+      />
+      <Footer />
     </div>
   );
 }

@@ -1,10 +1,13 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import ContentHeading from "../../Components/PageContentHeading/ContentHeading";
 import "./Contactus.css";
 import Select from "react-dropdown-select";
 import Animatedbutton from "../../Components/animatedBUtton/Animatedbutton"
 import Footer from "../../Components/Footer/Footer"
 function Contactus() {
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" })
+  }, []);
   const [name, setName] = useState();
   const [email, setEmail] = useState();
   const [values, setValues] = useState();

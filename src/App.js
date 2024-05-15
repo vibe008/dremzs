@@ -8,10 +8,13 @@ import About from "../src/Screen/About/About";
 import Contactus from "./Screen/ConatctUs/Contactus";
 import Blog from "./Screen/Blog/Blog";
 import Casestudy from "./Screen/caseStudy/Casestudy";
+import Casestudyinner from "./Screen/caseStudy/CaseStudyInner/Casestudyinner";
 function App() {
   useEffect(() => {
-    AOS.init(); // Initialize AOS when the component mounts
+    AOS.init(); 
+    window.scrollTo({ top: 0, behavior: "smooth" })
   }, []);
+
   return (
     <div>
       <Navbar />
@@ -22,6 +25,7 @@ function App() {
         <Route path="/Contact" element={<Contactus />}></Route>
         <Route path="/Blog" element={<Blog />}></Route>
         <Route path="/Casestudy" element={<Casestudy />}></Route>
+        <Route path="/Casestudyinner" element={<Casestudyinner />}></Route>
       </Routes>
        </div>
       {/* <Footer /> */}

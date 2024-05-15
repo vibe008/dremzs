@@ -160,9 +160,13 @@ function RecentStudy() {
                 </div>
                 <div className="rec_view_text">
                   <h4 className="rec_view_text_hea">
-                    <Link to="/Casestudy">{item.heading}t</Link>
+                    <Link to="/Casestudy"  onClick={()=>{
+                       window.scrollTo({ top: 0, behavior: "smooth" })
+                    }}>{item.heading}</Link>
                   </h4>
-                  <Link to="/Casestudy" className="rec_view_text-remo">
+                  <Link to="/Casestudy" onClick={()=>{
+                       window.scrollTo({ top: 0, behavior: "smooth" })
+                    }} className="rec_view_text-remo">
                     Read more
                   </Link>
                 </div>
@@ -187,9 +191,13 @@ function RecentStudy() {
                 </div>
                 <div className="rec_view_text">
                   <h4 className="rec_view_text_hea">
-                    <Link to="/Casestudy">{item.heading}t</Link>
+                    <Link  onClick={()=>{
+                       window.scrollTo({ top: 0, behavior: "smooth" })
+                    }} to="/Casestudy">{item.heading}</Link>
                   </h4>
-                  <Link to="/Casestudy" className="rec_view_text-remo">
+                  <Link onClick={()=>{
+                       window.scrollTo({ top: 0, behavior: "smooth" })
+                    }} to="/Casestudy" className="rec_view_text-remo">
                     Read more
                   </Link>
                 </div>
@@ -215,9 +223,13 @@ function RecentStudy() {
                 </div>
                 <div className="rec_view_text">
                   <h4 className="rec_view_text_hea">
-                    <Link to="/Casestudy">{item.heading}t</Link>
+                    <Link onClick={()=>{
+                       window.scrollTo({ top: 0, behavior: "smooth" })
+                    }} to="/Casestudy">{item.heading}</Link>
                   </h4>
-                  <Link to="/Casestudy" className="rec_view_text-remo">
+                  <Link onClick={()=>{
+                       window.scrollTo({ top: 0, behavior: "smooth" })
+                    }} to="/Casestudy" className="rec_view_text-remo">
                     Read more
                   </Link>
                 </div>
@@ -242,10 +254,14 @@ function RecentStudy() {
                   />
                 </div>
                 <div className="rec_view_text">
-                  <h4 className="rec_view_text_hea">
-                    <Link to="/Casestudy">{item.heading}t</Link>
+                  <h4  className="rec_view_text_hea">
+                    <Link onClick={()=>{
+                       window.scrollTo({ top: 0, behavior: "smooth" })
+                    }} to="/Casestudy">{item.heading}</Link>
                   </h4>
-                  <Link to="/Casestudy" className="rec_view_text-remo">
+                  <Link onClick={()=>{
+                       window.scrollTo({ top: 0, behavior: "smooth" })
+                    }} to="/Casestudy" className="rec_view_text-remo">
                     Read more
                   </Link>
                 </div>
@@ -271,9 +287,13 @@ function RecentStudy() {
                 </div>
                 <div className="rec_view_text">
                   <h4 className="rec_view_text_hea">
-                    <Link to="/Casestudy">{item.heading}t</Link>
+                    <Link onClick={()=>{
+                       window.scrollTo({ top: 0, behavior: "smooth" })
+                    }} to="/Casestudy">{item.heading}</Link>
                   </h4>
-                  <Link to="/Casestudy" className="rec_view_text-remo">
+                  <Link onClick={()=>{
+                       window.scrollTo({ top: 0, behavior: "smooth" })
+                    }} to="/Casestudy" className="rec_view_text-remo">
                     Read more
                   </Link>
                 </div>

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./About.css";
 import { Link } from "react-router-dom";
 import BannerOne from "../../Components/Banner1/BannerOne";
@@ -7,6 +7,10 @@ import Animatedbutton from "../../Components/animatedBUtton/Animatedbutton";
 import AboutBreadcrums from "../../Components/About/AboutBreadcrums";
 import Footer from "../../Components/Footer/Footer";
 function About() {
+
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" })
+  }, []);
   return (
     <>
       <div className="About_main">

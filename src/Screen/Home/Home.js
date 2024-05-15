@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Home.css";
 import Slider from "../../Components/Slider/Slider";
 import BannerOne from "../../Components/Banner1/BannerOne";
@@ -15,6 +15,9 @@ const project2img = require("../../Images/projectcompletepng2.png")
 const project3img = require("../../Images/projectcompletepng3.png")
 const project4img = require("../../Images/projectcompletepng4.png")
 function Home() {
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" })
+  }, []);
   return (
     <div className="home_section">
       <Slider />
