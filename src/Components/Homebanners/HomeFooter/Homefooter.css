@@ -271,6 +271,7 @@
     .dotted_footer{
         right: -42px;
         top:20px;
+        display: none;
         left:calc(100%-10%);
     }
 }

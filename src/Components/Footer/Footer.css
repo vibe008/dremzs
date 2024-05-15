@@ -231,5 +231,6 @@
         right: -42px;
         top:20px;
         left:calc(100%-10%);
+        display: none;
     }
 }
