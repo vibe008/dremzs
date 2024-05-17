@@ -1,7 +1,133 @@
 .Blog_section {
     position: absolute;
     top: 0px;
-    padding: 300px 0px;
-    height: 100%;
+    padding: 250px 0px;
     width: 100%;
+    height: 100%;
+}
+
+.blog_container {
+    width: 85%;
+    margin: 50px auto;
+    position: relative;
+}
+
+.blog_search {
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    width: 30%;
+    background-color: rgb(255, 255, 255);
+    padding: 15px 10px;
+    box-shadow: 0 0 20px hsla(0, 0%, 40%, .1);
+    border-radius: 5px;
+}
+
+.search_inner {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid #eaeaea;
+    background-color: #fbfafa;
+    padding: 10px 15px;
+
+}
+
+.blog_search input {
+    width: 90%;
+    /* padding: 10px 15px; */
+    color: #6b6a75;
+    font-family: 'jost';
+    font-size: 16px;
+    font-weight: 400;
+    outline: none;
+    border: none;
+    background: transparent;
+}
+
+.Blog_shown_container {
+    padding-top: 200px;
+    height: 600px;
+}
+
+.Blog_card {
+    /* width: 30%; */
+    height: 300px;
+    position: relative;
+}
+
+.Blog_card img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    position: absolute;
+    /* object-fit: contain; */
+}
+
+.Blog_overview {
+    position: absolute;
+    bottom: -150px;
+    width: 100%;
+}
+
+.overview_inner {
+    width: 85%;
+    background: white;
+    margin: auto;
+    height: 100%;
+    border-radius: 5px;
+    box-shadow: 0 20px 60px 0 rgba(0, 11, 40, .06);
+    padding: 15px 10px;
+}
+
+.blog_heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bloguerename {
+    align-items: center;
+    display: flex;
+}
+
+.bloguerename p {
+    color: #818090;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'jost';
+    margin-left: 5px;
+}
+
+.bloguerdate p {
+    color: #818090;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'jost';
+    margin-left: 5px;
+}
+
+.bloguerdate {
+    align-items: center;
+    display: flex;
+}
+
+.blog_desc h3 {
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0 0 26px;
+    font-weight: 500;
+    font-family: 'jost';
+}
+
+.blog_desc a {
+    color: #010e2e;
+}
+.blog_desc a:hover {
+    color: #4d41e1;
+}
+
+@media screen and (max-width: 768px) {
+    .blog_search{
+        width: 80%;
+    }
 }
