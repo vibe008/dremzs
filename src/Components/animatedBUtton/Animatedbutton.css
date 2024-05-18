@@ -13,6 +13,11 @@
     display: flex;
     align-items: center;
 }
+.button_anipre{
+    display: flex;
+    align-items: center;
+    
+}
 .animated_href::before {
     content: "";
     position: absolute;

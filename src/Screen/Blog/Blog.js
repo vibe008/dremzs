@@ -122,7 +122,7 @@ function Blog() {
                       </div>
                       <div className="blog_desc">
                         <h3>
-                          <Link>{item.text}</Link>
+                          <Link to="/BLogDetails">{item.text}</Link>
                         </h3>
                         <IoArrowForwardCircle color="#4d41e1" size={30} />
                       </div>

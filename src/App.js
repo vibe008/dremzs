@@ -9,6 +9,7 @@ import Contactus from "./Screen/ConatctUs/Contactus";
 import Blog from "./Screen/Blog/Blog";
 import Casestudy from "./Screen/caseStudy/Casestudy";
 import Casestudyinner from "./Screen/caseStudy/CaseStudyInner/Casestudyinner";
+import BLogDetails from "./Screen/Blog/BlogDetails/BLogDetails";
 function App() {
   useEffect(() => {
     AOS.init(); 
@@ -26,6 +27,7 @@ function App() {
         <Route path="/Blog" element={<Blog />}></Route>
         <Route path="/Casestudy" element={<Casestudy />}></Route>
         <Route path="/Casestudyinner" element={<Casestudyinner />}></Route>
+        <Route path="/BLogDetails" element={<BLogDetails />}></Route>
       </Routes>
        </div>
       {/* <Footer /> */}
