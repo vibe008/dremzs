@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/dremzs/static/css/main.837d1ae8.css",
-    "main.js": "/dremzs/static/js/main.f458ea4b.js",
+    "main.css": "/dremzs/static/css/main.b8ae08a5.css",
+    "main.js": "/dremzs/static/js/main.afb6c299.js",
     "reactPlayerYouTube.js": "/dremzs/static/js/reactPlayerYouTube.662d0e18.chunk.js",
     "reactPlayerSoundCloud.js": "/dremzs/static/js/reactPlayerSoundCloud.572a9ad1.chunk.js",
     "reactPlayerVimeo.js": "/dremzs/static/js/reactPlayerVimeo.212a42b4.chunk.js",
@@ -33,26 +33,33 @@
     "static/media/homeblog1.jpg": "/dremzs/static/media/homeblog1.7b2dd95c8edc3e1abb66.jpg",
     "static/media/sliderimg1.jpg": "/dremzs/static/media/sliderimg1.baf20fbcb4c0284ad45f.jpg",
     "static/media/projectresult.png": "/dremzs/static/media/projectresult.1c6b1824fdf2a13755c1.png",
+    "static/media/serviceicon5.png": "/dremzs/static/media/serviceicon5.428a7e5166bffc31e44f.png",
     "static/media/homeblog2.jpg": "/dremzs/static/media/homeblog2.51194ceb2d93a5ae8020.jpg",
     "static/media/aboutbreadcrums.jpg": "/dremzs/static/media/aboutbreadcrums.2c111f4163b4643c60b0.jpg",
     "static/media/banneroneimg.jpg": "/dremzs/static/media/banneroneimg.84c6fb0c8740600836cb.jpg",
     "static/media/eclipserotateshapetr.png": "/dremzs/static/media/eclipserotateshapetr.be7f2c55456b891b279c.png",
+    "static/media/serviceicon4.png": "/dremzs/static/media/serviceicon4.9c8a0050f375c9c5131c.png",
     "static/media/spaceshi.png": "/dremzs/static/media/spaceshi.9886d5d6c5a3e5f24720.png",
     "static/media/digitalmarketing1.png": "/dremzs/static/media/digitalmarketing1.6a7456b500e7336540b2.png",
     "static/media/customer.png": "/dremzs/static/media/customer.00eadb9189e19f354fc4.png",
+    "static/media/serviceicon6.png": "/dremzs/static/media/serviceicon6.26677e6414557b1a59fd.png",
     "static/media/aboutdigitalmarketing.png": "/dremzs/static/media/aboutdigitalmarketing.7608e49a5398441a5856.png",
+    "static/media/serviceicon2.png": "/dremzs/static/media/serviceicon2.7608e49a5398441a5856.png",
     "static/media/projectcompletepng4.png": "/dremzs/static/media/projectcompletepng4.41e05f5f56925a8a4890.png",
     "static/media/projectcompletepng.png": "/dremzs/static/media/projectcompletepng.928fc8138a9ff91c16a4.png",
     "static/media/person.png": "/dremzs/static/media/person.099d50a5b8eb6d40dc49.png",
     "static/media/man.png": "/dremzs/static/media/man.9ad76f24c051be9cdee9.png",
     "static/media/projectcompletepng3.png": "/dremzs/static/media/projectcompletepng3.4e50afe2e888a204a517.png",
     "static/media/aboutcodeoptimisation.png": "/dremzs/static/media/aboutcodeoptimisation.76f8740b2af1cfd5e546.png",
+    "static/media/serviceicon1.png": "/dremzs/static/media/serviceicon1.efdecec1540868be3fd7.png",
     "static/media/projectcompletepng2.png": "/dremzs/static/media/projectcompletepng2.10ec80289bc94f506056.png",
     "static/media/aboutpentool.png": "/dremzs/static/media/aboutpentool.883365bfff02b5c7474e.png",
     "static/media/shield.png": "/dremzs/static/media/shield.0056c2c719670d562bee.png",
+    "static/media/serviceicon3.png": "/dremzs/static/media/serviceicon3.659b32b2f75e1a59ff0a.png",
+    "static/media/servicepng.png": "/dremzs/static/media/servicepng.1289a16f49b6f236b4e7.png",
     "index.html": "/dremzs/index.html",
-    "main.837d1ae8.css.map": "/dremzs/static/css/main.837d1ae8.css.map",
-    "main.f458ea4b.js.map": "/dremzs/static/js/main.f458ea4b.js.map",
+    "main.b8ae08a5.css.map": "/dremzs/static/css/main.b8ae08a5.css.map",
+    "main.afb6c299.js.map": "/dremzs/static/js/main.afb6c299.js.map",
     "reactPlayerYouTube.662d0e18.chunk.js.map": "/dremzs/static/js/reactPlayerYouTube.662d0e18.chunk.js.map",
     "reactPlayerSoundCloud.572a9ad1.chunk.js.map": "/dremzs/static/js/reactPlayerSoundCloud.572a9ad1.chunk.js.map",
     "reactPlayerVimeo.212a42b4.chunk.js.map": "/dremzs/static/js/reactPlayerVimeo.212a42b4.chunk.js.map",
@@ -70,7 +77,7 @@
     "453.eeb3bb8a.chunk.js.map": "/dremzs/static/js/453.eeb3bb8a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.837d1ae8.css",
-    "static/js/main.f458ea4b.js"
+    "static/css/main.b8ae08a5.css",
+    "static/js/main.afb6c299.js"
   ]
 }
