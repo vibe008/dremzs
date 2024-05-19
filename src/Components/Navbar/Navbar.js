@@ -77,7 +77,6 @@ function Navbar() {
                   </Link>
                 </MenuItem>
                 <MenuItem>
-                  {" "}
                   <Link
                     to="/Service"
                     className="navlinkactive"
@@ -171,17 +170,16 @@ function Navbar() {
                   </Link>
                 </li>
                 <li className="nav_link_list">
-                  <a
+                  <Link to="/Service"
                     className={
                       navlinkactive === 3 ? "navlinkactive" : "Nav_link"
                     }
-                    href="/"
                     onClick={() => {
                       setnavlinkactive(3);
                     }}
                   >
                     Service
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav_link_list">
                   <Link

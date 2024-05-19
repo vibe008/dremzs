@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from "react";
+import React, { useMemo, useRef, useState } from "react";
 import "./Blogdetails.css";
 import ContentHeading from "../../../Components/PageContentHeading/ContentHeading";
 import { BsFillClockFill } from "react-icons/bs";
@@ -9,6 +9,7 @@ import { FaFacebook } from "react-icons/fa";
 import { FaPlay } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import YouTube from "react-youtube";
+import { IoIosPause } from "react-icons/io";
 import { LuSearch } from "react-icons/lu";
 import { PiInstagramLogoFill } from "react-icons/pi";
 import { IoIosArrowRoundForward } from "react-icons/io";
@@ -19,10 +20,11 @@ import Footer from "../../../Components/Footer/Footer";
 import Animatedbutton from "../../../Components/animatedBUtton/Animatedbutton";
 import { Link } from "react-router-dom";
 function BLogDetails() {
+  const videoref = useRef()
   const [search, setSearch] = useState("");
   const [isplaying, setisplaying] = useState(false);
   const blogdetailimg = require("../../../Images/homeblog1.jpg");
-
+  console.log("videoref",videoref)
   return (
     <div className="BLogDetails_section">
       <ContentHeading secondtextname="Blog Details" />
@@ -149,10 +151,11 @@ function BLogDetails() {
               <div
                 className="ply_btn"
                 onClick={() => {
-                  setisplaying(true);
+                  setisplaying(!isplaying);
                 }}
               >
-                <FaPlay color="#4d41e1" />
+                {isplaying? <IoIosPause color="#4d41e1" /> :       <FaPlay color="#4d41e1" />}
+          
               </div>
             </div>
             {/* <YouTube
@@ -164,8 +167,9 @@ function BLogDetails() {
             <Player
               url={require("../../../Images/video/Businessvideo.mp4")}
               playing={isplaying}
-              controls
+              // controls
               width="100%"
+              ref={videoref}
               height="100%"
             />
           </div>
