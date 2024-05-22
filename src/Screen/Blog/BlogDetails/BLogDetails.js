@@ -1,4 +1,4 @@
-import React, { useMemo, useRef, useState } from "react";
+import React, { useEffect, useMemo, useRef, useState } from "react";
 import "./Blogdetails.css";
 import ContentHeading from "../../../Components/PageContentHeading/ContentHeading";
 import { BsFillClockFill } from "react-icons/bs";
@@ -21,6 +21,9 @@ import Animatedbutton from "../../../Components/animatedBUtton/Animatedbutton";
 import { Link } from "react-router-dom";
 import Ctabutton from "../../../Components/CtaButton/Ctabutton";
 function BLogDetails() {
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" })
+  }, []);
   const videoref = useRef()
   const [search, setSearch] = useState("");
   const [isplaying, setisplaying] = useState(false);

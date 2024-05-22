@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Service.css";
 import ContentHeading from "../../Components/PageContentHeading/ContentHeading";
 import { IoIosArrowRoundForward } from "react-icons/io";
@@ -9,6 +9,9 @@ import Testimonials from "../../Components/Homebanners/testimonials/Testimonials
 import Footer from "../../Components/Footer/Footer";
 import { Link } from "react-router-dom";
 function Service() {
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" })
+  }, []);
   const eclips = require("../../Images/servicepng.png");
   const icon1 = require("../../Images/aboutcodeoptimisation.png");
 

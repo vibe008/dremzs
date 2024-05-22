@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./ServiceInner.css";
 import Animatedbutton from "../../Components/animatedBUtton/Animatedbutton";
 import Ctabutton from "../../Components/CtaButton/Ctabutton";
@@ -7,6 +7,9 @@ import Modal from "../../Components/Modal/Modal";
 import styled from "styled-components";
 import Footer from "../../Components/Footer/Footer"
 function ServiceInner() {
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" })
+  }, []);
   const ModalContent = styled.div`
     height: 100%;
     width: 100%;
