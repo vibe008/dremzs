@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/dremzs/static/css/main.b8ae08a5.css",
-    "main.js": "/dremzs/static/js/main.afb6c299.js",
+    "main.css": "/dremzs/static/css/main.ebd0c921.css",
+    "main.js": "/dremzs/static/js/main.fc24ccf1.js",
     "reactPlayerYouTube.js": "/dremzs/static/js/reactPlayerYouTube.662d0e18.chunk.js",
     "reactPlayerSoundCloud.js": "/dremzs/static/js/reactPlayerSoundCloud.572a9ad1.chunk.js",
     "reactPlayerVimeo.js": "/dremzs/static/js/reactPlayerVimeo.212a42b4.chunk.js",
@@ -18,6 +18,9 @@
     "reactPlayerPreview.js": "/dremzs/static/js/reactPlayerPreview.b227d691.chunk.js",
     "static/js/453.eeb3bb8a.chunk.js": "/dremzs/static/js/453.eeb3bb8a.chunk.js",
     "static/media/Businessvideo.mp4": "/dremzs/static/media/Businessvideo.b882c215a0b0d7640c3e.mp4",
+    "static/media/serbg.jpg": "/dremzs/static/media/serbg.dee7dc19d822af216183.jpg",
+    "static/media/servicebannner1.jpg": "/dremzs/static/media/servicebannner1.eabdefcd2495a69ca084.jpg",
+    "static/media/sebg1.jpg": "/dremzs/static/media/sebg1.3eabab36145f6eaeb79d.jpg",
     "static/media/homefooter.png": "/dremzs/static/media/homefooter.ac298d51d48b1a605ffa.png",
     "static/media/web3.jpg": "/dremzs/static/media/web3.02694ed3ba410aa31b2e.jpg",
     "static/media/homeblog3.jpg": "/dremzs/static/media/homeblog3.df39cd7ce9f37604b552.jpg",
@@ -38,6 +41,7 @@
     "static/media/aboutbreadcrums.jpg": "/dremzs/static/media/aboutbreadcrums.2c111f4163b4643c60b0.jpg",
     "static/media/banneroneimg.jpg": "/dremzs/static/media/banneroneimg.84c6fb0c8740600836cb.jpg",
     "static/media/eclipserotateshapetr.png": "/dremzs/static/media/eclipserotateshapetr.be7f2c55456b891b279c.png",
+    "static/media/ArchitectsDaughter-Regular.ttf": "/dremzs/static/media/ArchitectsDaughter-Regular.97e4b635030c7d8a85d5.ttf",
     "static/media/serviceicon4.png": "/dremzs/static/media/serviceicon4.9c8a0050f375c9c5131c.png",
     "static/media/spaceshi.png": "/dremzs/static/media/spaceshi.9886d5d6c5a3e5f24720.png",
     "static/media/digitalmarketing1.png": "/dremzs/static/media/digitalmarketing1.6a7456b500e7336540b2.png",
@@ -58,8 +62,8 @@
     "static/media/serviceicon3.png": "/dremzs/static/media/serviceicon3.659b32b2f75e1a59ff0a.png",
     "static/media/servicepng.png": "/dremzs/static/media/servicepng.1289a16f49b6f236b4e7.png",
     "index.html": "/dremzs/index.html",
-    "main.b8ae08a5.css.map": "/dremzs/static/css/main.b8ae08a5.css.map",
-    "main.afb6c299.js.map": "/dremzs/static/js/main.afb6c299.js.map",
+    "main.ebd0c921.css.map": "/dremzs/static/css/main.ebd0c921.css.map",
+    "main.fc24ccf1.js.map": "/dremzs/static/js/main.fc24ccf1.js.map",
     "reactPlayerYouTube.662d0e18.chunk.js.map": "/dremzs/static/js/reactPlayerYouTube.662d0e18.chunk.js.map",
     "reactPlayerSoundCloud.572a9ad1.chunk.js.map": "/dremzs/static/js/reactPlayerSoundCloud.572a9ad1.chunk.js.map",
     "reactPlayerVimeo.212a42b4.chunk.js.map": "/dremzs/static/js/reactPlayerVimeo.212a42b4.chunk.js.map",
@@ -77,7 +81,7 @@
     "453.eeb3bb8a.chunk.js.map": "/dremzs/static/js/453.eeb3bb8a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b8ae08a5.css",
-    "static/js/main.afb6c299.js"
+    "static/css/main.ebd0c921.css",
+    "static/js/main.fc24ccf1.js"
   ]
 }
