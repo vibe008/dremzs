@@ -62,7 +62,9 @@
     border-radius: 50%;
     margin: 20px 0px;
 }
-
+/* .swiper {
+    z-index: -99;
+} */
 @media screen and (max-width: 768px) {
     .Testimonials_container h2 {
         width: 100%;

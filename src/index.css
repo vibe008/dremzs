@@ -21,3 +21,7 @@ a{
   font-family: 'jost';
   src: url('fonts/Jost/Jost-VariableFont_wght.ttf') format('truetype');
 }
+@font-face {
+  font-family: 'Architects';
+  src: url('fonts/Architects_Daughter/ArchitectsDaughter-Regular.ttf') format('truetype');
+}

@@ -110,6 +110,7 @@
 .Fqa_section {
     width: 80%;
     margin: 100px auto;
+    z-index: 99;
 }
 @media screen and (max-width: 768px) {
     .Service_container_inner {

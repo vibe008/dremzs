@@ -11,6 +11,7 @@ import Casestudy from "./Screen/caseStudy/Casestudy";
 import Casestudyinner from "./Screen/caseStudy/CaseStudyInner/Casestudyinner";
 import BLogDetails from "./Screen/Blog/BlogDetails/BLogDetails";
 import Service from "./Screen/Service/Service";
+import ServiceInner from "./Screen/Service/ServiceInner";
 function App() {
   useEffect(() => {
     AOS.init(); 
@@ -30,6 +31,7 @@ function App() {
         <Route path="/Casestudyinner" element={<Casestudyinner />}></Route>
         <Route path="/BLogDetails" element={<BLogDetails />}></Route>
         <Route path="/Service" element={<Service />}></Route>
+        <Route path="/ServiceInner" element={<ServiceInner />}></Route>
       </Routes>
        </div>
       {/* <Footer /> */}

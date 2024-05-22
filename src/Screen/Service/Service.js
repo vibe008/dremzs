@@ -7,6 +7,7 @@ import Homeemail from "../../Components/Homebanners/HomeemailSection/Homeemail";
 import Faq from "react-faq-component";
 import Testimonials from "../../Components/Homebanners/testimonials/Testimonials";
 import Footer from "../../Components/Footer/Footer";
+import { Link } from "react-router-dom";
 function Service() {
   const eclips = require("../../Images/servicepng.png");
   const icon1 = require("../../Images/aboutcodeoptimisation.png");
@@ -148,7 +149,10 @@ function Service() {
                     className="card_inner_circle"
                     style={{ background: item.bg }}
                   >
+                    <Link to="/ServiceInner">
                     <IoIosArrowRoundForward color="white" />
+                    </Link>
+            
                   </div>
                 </div>
               </div>

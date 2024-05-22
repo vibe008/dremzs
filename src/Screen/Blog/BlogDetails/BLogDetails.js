@@ -19,32 +19,19 @@ import Player from "react-player";
 import Footer from "../../../Components/Footer/Footer";
 import Animatedbutton from "../../../Components/animatedBUtton/Animatedbutton";
 import { Link } from "react-router-dom";
+import Ctabutton from "../../../Components/CtaButton/Ctabutton";
 function BLogDetails() {
   const videoref = useRef()
   const [search, setSearch] = useState("");
   const [isplaying, setisplaying] = useState(false);
   const blogdetailimg = require("../../../Images/homeblog1.jpg");
+  const blogdetailimg1 = require("../../../Images/serbg.jpg");
   console.log("videoref",videoref)
   return (
     <div className="BLogDetails_section">
       <ContentHeading secondtextname="Blog Details" />
       <div className="BLogDetails_container">
       <div className="BLogDetails_recent_post">
-          <div className="BLogDetails_search_component">
-            <div className="_search_component_inner">
-              <input
-                placeholder="Search"
-                className="bd_input"
-                value={search}
-                onChange={(e) => {
-                  setSearch(e.target.value);
-                }}
-              />
-              <div>
-                <LuSearch color="#4d41e1" size={20} />
-              </div>
-            </div>
-          </div>
           <div className="BLogDetails_recent_post_section">
             <div className="repo_inner">
               <h3 className="repo_inner_heading">Recent Posts</h3>
@@ -95,6 +82,10 @@ function BLogDetails() {
                 </div>
               </div>
             </div>
+          </div>
+
+          <div className="BLogDetails_recent_post_img">
+           <img src={blogdetailimg1} alt="blogdetailimg" style={{width:"100%",height:"100%",objectFit:"cover"}}/>
           </div>
         </div>
         <div className="BLogDetails_containet">
@@ -173,6 +164,9 @@ function BLogDetails() {
               height="100%"
             />
           </div>
+           <div style={{height:"100px",margin:"100px 0px"}}>
+           <Ctabutton/>
+           </div>
           <h2 className="bdheading">How to Prepare?</h2>
           <p className="bdpara">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
