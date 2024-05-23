@@ -37,7 +37,7 @@ function Slider() {
                 >
                   <h3    className="main_para inner_text_para">Rasin Agency</h3>
                   <div   className="mid_para inner_text_para">
-                    Digital & Cretive Agency Providing Solution
+                    Digital & Cretive Agency <br/>Providing Solution
                   </div>
                   <div  className="End_para inner_text_para">
                     Lorem ipsum dolor consecteture elite we’re a creative

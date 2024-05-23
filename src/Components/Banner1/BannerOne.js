@@ -5,11 +5,11 @@ const spacesi = require("../../Images/spaceshi.png");
 const customer = require("../../Images/customer.png");
 function BannerOne() {
   return (
-    <div className="bannerone_conatiner">
+    <div className="bannerone_conatiner"  data-aos="fade-up" data-aos-delay="100">
       <div className="bannerone_image_container"></div>
       <div className="bannerone_text">
         <div className="banner_main_text">
-          <h2>
+          <h2> 
             A creative agency of some{" "}
             <span className="special_text">Creative & inteligents</span> people
           </h2>

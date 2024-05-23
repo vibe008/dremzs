@@ -7,7 +7,7 @@ function Animatedbutton(props) {
 
   console.log("props.btnname",props.btnname)
   return (
-    <div className="button_ani">
+    <div className="button_ani" data-aos="fade-up" >
       <a className="animated_href" href="/">
         {props.btnname}
       </a>

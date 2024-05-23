@@ -39,7 +39,7 @@ function Slidersecond() {
           modules={[FreeMode, Pagination]}
           className="mul_swiper_slider"
         >
-          <SwiperSlide>
+          <SwiperSlide data-aos="fade-right">
             <div className="mul_slider_card">
               <div className="_mulcard_icon">
                 <img
@@ -60,7 +60,7 @@ function Slidersecond() {
               </div>
             </div>
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide data-aos="fade-right">
             <div className="mul_slider_card">
               <div className="_mulcard_icon">
                 <img
@@ -81,7 +81,7 @@ function Slidersecond() {
               </div>
             </div>
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide data-aos="fade-right">
             <div className="mul_slider_card">
               <div className="_mulcard_icon">
                 <img
@@ -102,7 +102,7 @@ function Slidersecond() {
               </div>
             </div>
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide data-aos="fade-right">
             <div className="mul_slider_card">
               <div className="_mulcard_icon">
                 <img
@@ -123,7 +123,7 @@ function Slidersecond() {
               </div>
             </div>
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide data-aos="fade-right">
             <div className="mul_slider_card">
               <div className="_mulcard_icon">
                 <img
@@ -144,7 +144,7 @@ function Slidersecond() {
               </div>
             </div>
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide data-aos="fade-right">
             <div className="mul_slider_card">
               <div className="_mulcard_icon">
                 <img
@@ -168,7 +168,7 @@ function Slidersecond() {
         </Swiper>
       </div>
 
-      <div className="mul_hyp_li">
+      <div className="mul_hyp_li" data-aos="fade-up">
         <a href="/">Explore All Services</a>
       </div>
     </div>

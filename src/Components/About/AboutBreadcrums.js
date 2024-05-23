@@ -23,7 +23,7 @@ function AboutBreadcrums() {
           </p>
         </div>
         <div className="percent_section">
-          <div className="percent_inner">
+          <div className="percent_inner" data-aos="fade-up"  data-aos-delay="400">
             <svg
               width={240}
               height={240}
@@ -72,7 +72,7 @@ function AboutBreadcrums() {
             </div>
           </div>
 
-          <div className="percent_inner">
+          <div className="percent_inner" data-aos="fade-up"  data-aos-delay="350">
             <svg
               width={240}
               height={240}
@@ -121,7 +121,7 @@ function AboutBreadcrums() {
             </div>
           </div>
 
-          <div className="percent_inner">
+          <div className="percent_inner" data-aos="fade-up"  data-aos-delay="400">
             <svg
               width={240}
               height={240}

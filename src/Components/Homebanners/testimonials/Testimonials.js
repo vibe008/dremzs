@@ -8,7 +8,7 @@ import { FreeMode, Pagination } from "swiper/modules";
 const testiminoalsimg1 = require("../../../Images/testti1.jpg");
 function Testimonials() {
   return (
-    <div className="Testimonials_section">
+    <div className="Testimonials_section" data-aos="fade-up"  data-aos-delay="300">
       <div className="Testimonials_container">
         <h2>Let’s see testimonials to what clients says</h2>
         <div className="Testimonials_card_container">

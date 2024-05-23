@@ -3,7 +3,7 @@
     position: absolute;
     top: 0;
     width: 100%;
-    height: 400px;
+    height: 300px;
 }
 .About_section {
     justify-content: center;
@@ -79,7 +79,7 @@
 }
 .about_conta_banner{
   position: absolute;
-  bottom: -10px;
+  bottom: -50px;
   width: 100%;
 }
 .about_conta_banner_inner{

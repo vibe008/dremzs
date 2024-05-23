@@ -6,13 +6,13 @@ import React from 'react'
 function HomebannerOne() {
   return (
     <div className='hb_conatiner'>
-      <div className='hb_big_circle'>
+      <div className='hb_big_circle' data-aos="fade-up"  data-aos-delay="300">
         <h2>Here is some reson why most of the clients happy to <span>Choice us.</span></h2>
         <p >Aaborisum ipsum dolor seat ameat consecteturerslmore be eli elitl elite consect bonsecteture.Contrary to populabeliefLorem ips Ipsum is not sirand. It’s Imo</p>
       </div>
 
       <div className='hb_service_text_icon'>
-        <div className='bh_service_text_card'>
+        <div className='bh_service_text_card' data-aos="fade-up"  data-aos-delay="400">
           <div className='hb_service_card_logo'>
             <img src={person} alt='person' style={{width:"100%",height:"100%",objectFit:"contain"}}/>
           </div>
@@ -22,7 +22,7 @@ function HomebannerOne() {
           </div>
         </div>
 
-        <div className='bh_service_text_card'>
+        <div className='bh_service_text_card' data-aos="fade-up"  data-aos-delay="400">
           <div className='hb_service_card_logo second'>
             <img src={shield} alt='person' style={{width:"100%",height:"100%",objectFit:"contain"}}/>
           </div>
@@ -33,7 +33,7 @@ function HomebannerOne() {
         </div>
 
 
-        <div className='bh_service_text_card'>
+        <div className='bh_service_text_card' data-aos="fade-up"  data-aos-delay="400">
           <div className='hb_service_card_logo third'>
             <img src={man} alt='person' style={{width:"100%",height:"100%",objectFit:"contain"}}/>
           </div>

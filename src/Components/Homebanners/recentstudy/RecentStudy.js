@@ -117,7 +117,7 @@ function RecentStudy() {
 
   return (
     <div className="recnet_container_h">
-      <div className="recent_text_container">
+      <div className="recent_text_container" data-aos="fade-up"  data-aos-delay="300">
         <h2>Recent Case Study</h2>
         <div className="re_te_section">
           {data.map((item, key) => {
@@ -146,7 +146,7 @@ function RecentStudy() {
         {rebtnvalue === "Web Development" &&
           webdevelopment.map((item, key) => {
             return (
-              <div className="recent_view_card" key={key}>
+              <div className="recent_view_card" key={key} data-aos="fade-right">
                 <div className="re_view_img">
                   <img
                     src={item.image}
